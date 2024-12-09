@@ -1,0 +1,81 @@
+.main-menu {
+    background-color: #333F50;
+    color: #000;
+    height: 630px;
+    width: 1120px;
+    position: relative;
+    font-family: 'Calibri', sans-serif;
+    overflow-y: hidden;
+  }
+  
+  .reset-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #C00000;
+    color: #fff;
+    border: none;
+    padding: 8px 39.5px;
+    border: 2px solid white;  
+    font-size: 14px;
+    font-weight: bold;  
+    border-radius: 5px;
+  }
+  
+  .main-menu h2 {
+    text-align: left;
+    margin-top: 80px;
+    font-size: 18px;
+    margin-left: 185px;
+    color: #fff;
+
+
+  }
+  
+  .games-grid {
+    display: grid;
+    justify-content: center;
+    margin-top: 20  px;
+    grid-template-columns: auto auto;
+
+  }
+  
+  .game-item {
+    display: flex;
+    align-items: center;
+        margin: 10px 30px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .circle.completed {
+    background-color: #A9D18E;
+    color: #385723;
+  }
+  
+  .game-button {
+    background-color: #F2F2F2;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #5f5f5f;
+    width: 250px;
+    border-radius: 5px;
+    font-family: 'Calibri', sans-serif;
+    
+
+  }
+  
