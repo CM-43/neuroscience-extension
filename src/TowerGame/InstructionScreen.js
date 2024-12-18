@@ -33,6 +33,8 @@ const InstructionScreen = () => {
             <span className="dark-blue-button" style={{padding:'3px 30px',lineHeight:'1'}}>Restart</span>
           </li>
         </ol>
+        <p><i><b> Note:</b> Unlike the base game, Towers Game 2 is randomized – play a few times for different combinations of target 
+        and starting towers.</i></p>
         <button className="grey-button" onClick={() => navigate('transition')}>
           Begin Game
         </button>

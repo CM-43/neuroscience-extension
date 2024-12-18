@@ -4,6 +4,11 @@ import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 import MainMenu from './MainMenu';
 import Login from './Login/Login';
 import MagnitudesGame from './MagnitudesGame/MagnitudesGame';
+import SequencesGame from './SequencesGame/SequencesGame';
+import ShapesGame from './ShapesGame/ShapesGame';
+import LettersGame from './LettersGame/LettersGame';
+import TowerGame2 from './TowerGame/TowerGame';
+import FacesGame2 from './FacesGame/FacesGame';
 
 
 // Import other games as needed
@@ -60,23 +65,23 @@ function App() {
         />
         <Route
           path="/game/2/*"
-          // element={<SequencesGame onComplete={() => handleGameCompletion(2)} />}
+          element={<SequencesGame onComplete={() => handleGameCompletion(2)} />}
         />
         <Route
           path="/game/3/*"
-          // element={<ShapesGame onComplete={() => handleGameCompletion(3)} />}
+          element={<ShapesGame onComplete={() => handleGameCompletion(3)} />}
         />
         <Route
           path="/game/4/*"
-          // element={< LettersGame onComplete={() => handleGameCompletion(4)} />}
+          element={< LettersGame onComplete={() => handleGameCompletion(4)} />}
         />
         <Route
           path="/game/5/*"
-          // element={< TowerGame2 onComplete={() => handleGameCompletion(5)} />}
+          element={< TowerGame2 onComplete={() => handleGameCompletion(5)} />}
         />
         <Route
           path="/game/6/*"
-          // element={<FacesGame2 onComplete={() => handleGameCompletion(6)} />}
+          element={<FacesGame2 onComplete={() => handleGameCompletion(6)} />}
         />
 
         {/* Add routes for other games */}

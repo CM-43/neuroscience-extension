@@ -21,7 +21,7 @@ const TowerGame = ({ onComplete }) => {
       <Route
         path="strategy-tips"
         element={
-          <StrategyTipsScreen url="1oXSE0WGuYx6_PYJj7Z-ruZuCSz363usqtMTcGUk_SAo" />
+          <StrategyTipsScreen url="1ORxzCwxPKSRre93Lh3uQAVKFNhrTE0H9OgfGs_8UZpE" />
         }
       />
     </Routes>

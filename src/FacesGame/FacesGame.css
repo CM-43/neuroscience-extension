@@ -1,0 +1,138 @@
+/* FacesGame/FacesGame.css */
+.faces-game {
+    background-color: #333F50;
+    color: #000;
+    height: 630px;
+    width: 1120px;
+    position: relative;
+    font-family: 'Calibri', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .game-box {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 70px;
+    width: 90%;
+    height: 78%;
+    position: relative;
+  }
+  
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .face-count {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .timer-icon {
+    margin-right: 5px;
+  }
+
+  .content-row-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .content-row {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    column-gap: 40px;
+  }
+  .content-column { 
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 85%;
+    column-gap: 40px;
+  }
+  .content-column .face-image{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+  
+  .face-text {
+    margin-left: 20px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .face-text-below {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .faces-game .buttons-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom : 40px;
+
+  }
+  .buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 85%;
+  }
+  
+  .emotion-button {
+    background-color: #002253;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .emotion-button:hover {
+    background-color: #555;
+  }
+  .faces-game .summary-item{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .faces-game .summary-content{
+    margin-top: 120px;
+    margin-right: 20px;
+    
+  }
+  .faces-game .summary-title{
+    width: 250px;
+    margin-bottom: 15px;
+
+  }
+  .faces-game .summary-value{
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .tips-box{
+    border: solid 2px #ccc;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #eaeaea;
+  }
+
+

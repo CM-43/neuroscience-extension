@@ -1,0 +1,62 @@
+.letters-game {
+    background-color: #333F50;
+    color: #000;
+    height: 630px;
+    width: 1120px;
+    position: relative;
+    font-family: 'Calibri', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .game-box {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 70px;
+    width: 90%;
+    height: 78%;
+    position: relative;
+    overflow: auto;
+  }
+  
+  .letter-display {
+    font-size: 80px;
+    font-weight: bold;
+  }
+  
+  
+  .summary-stats {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .letters-game .summary-stats {
+    margin-top: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  .letters-game .summary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 50px;
+  }
+  
+  .letters-game .summary-title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+  }
+  
+
+  

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://torhadas1.github.io/neuroscience-extension/",
   "name": "neuroscience-extension",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "react-scrollbars-custom": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

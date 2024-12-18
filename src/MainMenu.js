@@ -18,6 +18,7 @@ const MainMenu = ({ completedGames, onReset }) => {
       <button className="reset-button" onClick={onReset}>
         Reset
       </button>
+      <br></br><br></br><br></br>
       <h2>Select the minigame you would like to play:</h2>
       <div className="games-grid">
         {games.map((game) => (

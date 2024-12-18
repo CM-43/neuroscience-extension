@@ -90,7 +90,7 @@
   margin-top: 70px;
 }
 
-.options-container {
+.magnitudes-game .options-container {
   display: flex;
   justify-content: center;
   gap: 150px;
@@ -98,7 +98,7 @@
   margin-top: 40px;
 }
 
-.option-box {
+.magnitudes-game .option-box {
   width: 250px;
   height: 250px;
   border: 1.5px solid #000000;
@@ -178,9 +178,36 @@
   max-height: 200px;
   overflow-y: auto;
   width: 96%;
-  scrollbar-color: black rgb(216, 216, 216);
-  scrollbar-width: thin;
+  border: 0.5px solid #AAA9A8;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  border: 0px solid #000000;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #AAA9A8;
+  border: 0px solid #000000;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 3px;
+  border: 0px solid #000000;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 
 .summary-table table {
   border-collapse: collapse;
@@ -243,8 +270,8 @@
 
 .close-button {
   position: absolute;
-  top: 97px;
-  right: 261px;
+  top: 128.5px;
+  right: 190px;
   background: #000000;
   color: #fff;
   border: none;

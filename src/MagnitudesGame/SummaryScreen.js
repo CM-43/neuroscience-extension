@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './MagnitudesGame.css'; // Same or similar styling as the game screen
+import { Scrollbar } from 'react-scrollbars-custom';
+
 
 const SummaryScreen = () => {
   const navigate = useNavigate();
@@ -56,7 +58,7 @@ const SummaryScreen = () => {
             <div className="summary-title">Fractions Correct:</div>
             <div className="summary-value">{fractionCorrect}/{fractionRounds.length}</div>
           </div>
-          <div className="summary-item">
+          <div className="summary-item" style={{marginBottom:'0px'}}>
             <div className="summary-title">Circles Correct:</div>
             <div className="summary-value">{circleCorrect}/{circleRounds.length}</div>
           </div>

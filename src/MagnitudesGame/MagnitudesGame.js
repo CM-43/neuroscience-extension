@@ -20,7 +20,7 @@ const ArrowsGame = ({ onComplete }) => {
       <Route path="summary" element={<SummaryScreen />} />
       <Route
         path="strategy-tips"
-        element={<StrategyTipsScreen url="1xXqYVhrOadbQ3x7u_4XiIPTOt3ViCPLlgp_xYLrRrRQ" />}
+        element={<StrategyTipsScreen url="1EaBK5zMiK8NEdyVvYMnYv1C2CDxGqivAgJOD8njR9DA" />}
       />
     </Routes>
   );

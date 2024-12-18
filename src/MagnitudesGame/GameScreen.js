@@ -4,7 +4,7 @@ import './MagnitudesGame.css'; // similar styling as the tower game
 
 const TOTAL_ROUNDS = 10;
 
-const GameScreen = () => {
+const GameScreen = ({onComplete}) => {
   const navigate = useNavigate();
 
   const [roundIndex, setRoundIndex] = useState(0);
@@ -39,7 +39,7 @@ const GameScreen = () => {
   }, [timeLeft, showWhiteScreen, roundData]);
 
   const startTimer = () => {
-    setTimeLeft(200);
+    setTimeLeft(5);
     if (timerRef.current) clearInterval(timerRef.current);
     timerRef.current = setInterval(() => {
       setTimeLeft((prev) => {
@@ -74,6 +74,7 @@ const GameScreen = () => {
     if (nextRound >= TOTAL_ROUNDS) {
       // All rounds complete
       setTimeout(() => {
+        onComplete();
         navigate('../end-transition');
       }, 500);
     } else {
