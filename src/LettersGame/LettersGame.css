@@ -50,6 +50,8 @@
     align-items: center;
     margin-bottom: 10px;
     gap: 50px;
+    margin-right: 25px;
+
   }
   
   .letters-game .summary-title {

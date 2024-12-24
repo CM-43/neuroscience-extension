@@ -192,9 +192,11 @@ function randomFraction() {
   const numerator = Math.floor(Math.random() * 49) + 1;  // 1 to 49
   let denominator = Math.floor(Math.random() * (50 - 2 + 1)) + 2; // 2 to 50
   // Ensure denominator > numerator
-  if (denominator <= numerator) {
-    denominator = numerator + 1;
-    if (denominator > 50) denominator = 50;
+  while (denominator <= numerator) {
+    denominator = Math.floor(Math.random() * (50 - 2 + 1)) + 2; // 2 to 50
+    while (denominator > 50) denominator = 50;
+    denominator = Math.floor(Math.random() * (50 - 2 + 1)) + 2; // 2 to 50
+
   }
   return { numerator, denominator };
 }

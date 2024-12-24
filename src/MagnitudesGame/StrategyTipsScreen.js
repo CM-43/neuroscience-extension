@@ -16,7 +16,7 @@ const StrategyTipsScreen = ({ url }) => {
       <div className="game-box">
         <h2>Strategy & Tips</h2>
         <iframe className="tips-box" src={src} 
-         style={{height: '300px', width: '90%'}}
+         style={{height: '340px', width: '90%'}}
         > </iframe>
         <button
           className="grey-button"

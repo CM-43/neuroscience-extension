@@ -504,7 +504,7 @@ const GameScreen = ({ onComplete }) => {
           <div className="content-row-container">
             <div className={face.timeLimit === 30 ? ("content-row") : ("content-column")}>
               <div className="face-image">
-                <img src={`./images/G6_Faces/${face.image}`} alt={`Face ${face.faceNumber}`} height="150px" />
+                <img src={`./images/G6_Faces/${face.image}`} alt={`Face ${face.faceNumber}`} height="150px"/>
               </div>
               {face.timeLimit === 30 ? (
                 <div className="face-text">{face.text}</div>

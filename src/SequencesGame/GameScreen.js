@@ -134,7 +134,7 @@ const GameScreen = ({onComplete}) => {
           <input
             type="text"
             className="number-box-input"
-            placeholder="Input"
+            placeholder={`Input`}
             value={userAnswer}
             onChange={(e) => setUserAnswer(e.target.value)}
           />

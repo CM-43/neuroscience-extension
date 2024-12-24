@@ -104,7 +104,7 @@
   .number-box-input {
     width: 130px;
     height: 130px;
-    background: #ececec;
+    background: #f1f1f1;
     border: 2px solid #000;
     font-size: 46px;
     color: black;
@@ -112,7 +112,11 @@
     text-align: center;
   }
   .number-box-input::placeholder{
-    font-size: 46px;
+    font-size: 36px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    color: #bababa;
 
   }
   
@@ -220,7 +224,7 @@
   }
   
   /* Modal Styles */
-  .modal-overlay {
+  .sequences-game .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -234,7 +238,7 @@
     z-index: 9999;
   }
   
-  .modal-box {
+  .sequences-game .modal-box {
     background: #fff;
     padding: 20px;
     display: flex;
@@ -245,7 +249,7 @@
     max-height: 70%;
   }
   
-  .close-button {
+  .sequences-game .close-button {
     position: absolute;
     top: 97px;
     right: 261px;
@@ -256,7 +260,7 @@
     cursor: pointer;
   }
   
-  .circle-preview {
+  .sequences-game .circle-preview {
     border: 1px solid #000;
     margin-top: 20px;
     width: 250px;
@@ -264,14 +268,14 @@
     display: flex;
     flex-flow: column;
   }
-  .preview-box{
+  .sequences-game .preview-box{
     display: flex;
     flex-flow: column;
     text-align: center;
     font-weight: bold;
     margin-bottom: 0px;
   }
-  .preview-box p{
+  .sequences-game .preview-box p{
   margin: 0px;
   margin-top: 10px;
   }
@@ -281,7 +285,7 @@
   
   .summary-buttons{
     position: absolute;
-    bottom: 30px !important;
+    bottom: 40px !important;
     left: 50%;
     transform: translateX(-50%);
   }

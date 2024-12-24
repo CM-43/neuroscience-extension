@@ -19,8 +19,8 @@ const GameScreen = ({ onComplete }) => {
         return generateRandomTowers();
     });
     // Generate initial random towers setup
-    const initialTowersConfig = generateRandomTowers();
-    const [initialTowers] = useState(initialTowersConfig);
+    // const initialTowersConfig = generateRandomTowers();
+    const [initialTowers] = useState(towers);
 
     const [selectedDisk, setSelectedDisk] = useState(null);
     const [moveHistory, setMoveHistory] = useState([]);
@@ -138,7 +138,7 @@ const GameScreen = ({ onComplete }) => {
 
     const handleRestart = () => {
         // Return disks to the starting position of this round
-        setTowers(JSON.parse(JSON.stringify(initialTowers)));
+        setTowers(initialTowers);
         setSelectedDisk(null);
         setPlanningTime(null);
         setGameStartTime(null);
@@ -256,8 +256,8 @@ function generateRandomTowers() {
             towers[chosenTower].push(disk);
         }
         // Ensure not all on the same tower
+        
     } while (allOnSameTower(towers));
-
     return towers;
 }
 
