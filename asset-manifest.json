@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/neuroscience-extension/static/css/main.5ffefc8b.css",
-    "main.js": "/neuroscience-extension/static/js/main.a4e61206.js",
+    "main.css": "/neuroscience-extension/static/css/main.38d5d1fb.css",
+    "main.js": "/neuroscience-extension/static/js/main.ae3ddbbf.js",
     "static/js/488.d91d49c7.chunk.js": "/neuroscience-extension/static/js/488.d91d49c7.chunk.js",
     "static/media/towerTips.png": "/neuroscience-extension/static/media/towerTips.8630e3572700413232f7.png",
     "index.html": "/neuroscience-extension/index.html",
-    "main.5ffefc8b.css.map": "/neuroscience-extension/static/css/main.5ffefc8b.css.map",
-    "main.a4e61206.js.map": "/neuroscience-extension/static/js/main.a4e61206.js.map",
+    "main.38d5d1fb.css.map": "/neuroscience-extension/static/css/main.38d5d1fb.css.map",
+    "main.ae3ddbbf.js.map": "/neuroscience-extension/static/js/main.ae3ddbbf.js.map",
     "488.d91d49c7.chunk.js.map": "/neuroscience-extension/static/js/488.d91d49c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ffefc8b.css",
-    "static/js/main.a4e61206.js"
+    "static/css/main.38d5d1fb.css",
+    "static/js/main.ae3ddbbf.js"
   ]
 }
