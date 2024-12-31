@@ -14,7 +14,7 @@ const InstructionScreen = () => {
       <div className="game-box">
         <h2>Instructions</h2>
         <p>
-          You will be shown 2 items each round for a total of 10 rounds; the items can be either fractions or an image with
+          You will be shown 2 items each round for a total of 10 rounds; the items can be either fractions or images with
           both yellow and green dots. You will have 5 seconds each round to pick 1 of the 2 items.
 
           <ol style={{ paddingLeft: '20px', paddingBottom: '0px' }}>

@@ -123,7 +123,7 @@ const SummaryScreen = () => {
           </table>
 
         </div>
-        <span style={{ paddingLeft: '30px', opacity: '0.8' }}> <i> * Chosen options are bolded ; for circle rounds, the fractions represent the proportion of circles that are yellow</i></span>
+        <span style={{ paddingLeft: '30px', opacity: '0.8' }}> <i> * Chosen options are bolded; for circle rounds, the fractions represent the proportion of circles that are yellow</i></span>
         <div className="summary-buttons">
           <button
             className="grey-buttons"
@@ -184,7 +184,7 @@ const SummaryScreen = () => {
                       ></div>
                     ))}
                   </div>
-                  <p style={{ opacity: modalRoundData.userChoice === 1 ? '0' : '1' }}>You picked This</p>
+                  <p style={{ opacity: modalRoundData.userChoice === 1 ? '0' : '1' }}>You picked this</p>
                 </div>
 
               </div>

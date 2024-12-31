@@ -14,7 +14,7 @@ const InstructionScreen = () => {
         <h2>Instructions</h2>
         <p>
           You will be shown a sequence of 14 rectangles with unique patterns, and you need to identify the shape hidden within the rectangle.
-        <br></br>
+        </p><p >
           You will have 45 seconds to find each shape.
         </p>
         <button className="grey-button" onClick={() => navigate('transition')}>
