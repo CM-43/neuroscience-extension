@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
 
         // You would replace this with your actual login logic.
         // This example just checks if the username and password are both "admin".
-        if (username === 'CaseMentor9042' && password === 'PYM-SIM-ST12kL6') {
+        if (username === 'CaseMentor8473' && password === 'PYM-SIM-Xm520xC') {
             localStorage.setItem('isLoggedIn', 'true'); // Set isLoggedIn to true in local storage
             onLogin(); // Call the onLogin function to update the app state
         } else {
